@@ -27,7 +27,7 @@ tar xfz vegeta_12.8.4_linux_amd64.tar.gz
 Move the binary file into /usr/bin to make it available system-wide. This step actually installs the Vegeta application in your Dev container:
 
 ```
-mv vegeta /usr/bin/vegeta
+sudo mv vegeta /usr/bin/vegeta
 ```
 
 ## Running a load test with Vegeta
